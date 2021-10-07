@@ -80,12 +80,22 @@ __metadata:
 "@sn/yarn-workspaces-bootstrap-js@workspace:packages/js":
   version: 0.0.0-use.local
   resolution: "@sn/yarn-workspaces-bootstrap-js@workspace:packages/js"
+  dependencies:
+    "@sn/yarn-workspaces-bootstrap-common": "workspace:packages/common"
+    eslint: ^7.32.0
+    tslib: ^2.3.1
+    typescript: ^4.4.3
   languageName: unknown
   linkType: soft
 
 "@sn/yarn-workspaces-bootstrap-node@workspace:packages/node":
   version: 0.0.0-use.local
   resolution: "@sn/yarn-workspaces-bootstrap-node@workspace:packages/node"
+  dependencies:
+    "@sn/yarn-workspaces-bootstrap-common": "workspace:packages/common"
+    eslint: ^7.32.0
+    tslib: ^2.3.1
+    typescript: ^4.4.3
   languageName: unknown
   linkType: soft
 

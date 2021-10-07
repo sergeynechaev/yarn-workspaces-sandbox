@@ -23,6 +23,8 @@
     "strict": true,
     "target": "es5",
     "strictBindCallApply": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "baseUrl": "packages"
   },
   "exclude": [

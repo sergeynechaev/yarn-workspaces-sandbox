@@ -1,1 +1,1 @@
-# js
+# `@sn/yarn-workspaces-bootstrap-js`

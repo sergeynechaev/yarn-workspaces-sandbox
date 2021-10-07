@@ -1,1 +1,1 @@
-# node
+# `@sn/yarn-workspaces-bootstrap-node`

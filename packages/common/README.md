@@ -1,1 +1,1 @@
-# common
+# `@sn/yarn-workspaces-bootstrap-common`
