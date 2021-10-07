@@ -67,9 +67,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sn/yarn-workspaces-bootstrap-common@workspace:packages/common":
+"@sn/yarn-workspaces-sandbox-common@workspace:packages/common":
   version: 0.0.0-use.local
-  resolution: "@sn/yarn-workspaces-bootstrap-common@workspace:packages/common"
+  resolution: "@sn/yarn-workspaces-sandbox-common@workspace:packages/common"
   dependencies:
     eslint: ^7.32.0
     tslib: ^2.3.1
@@ -77,31 +77,31 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sn/yarn-workspaces-bootstrap-js@workspace:packages/js":
+"@sn/yarn-workspaces-sandbox-js@workspace:packages/js":
   version: 0.0.0-use.local
-  resolution: "@sn/yarn-workspaces-bootstrap-js@workspace:packages/js"
+  resolution: "@sn/yarn-workspaces-sandbox-js@workspace:packages/js"
   dependencies:
-    "@sn/yarn-workspaces-bootstrap-common": "workspace:packages/common"
+    "@sn/yarn-workspaces-sandbox-common": "workspace:packages/common"
     eslint: ^7.32.0
     tslib: ^2.3.1
     typescript: ^4.4.3
   languageName: unknown
   linkType: soft
 
-"@sn/yarn-workspaces-bootstrap-node@workspace:packages/node":
+"@sn/yarn-workspaces-sandbox-node@workspace:packages/node":
   version: 0.0.0-use.local
-  resolution: "@sn/yarn-workspaces-bootstrap-node@workspace:packages/node"
+  resolution: "@sn/yarn-workspaces-sandbox-node@workspace:packages/node"
   dependencies:
-    "@sn/yarn-workspaces-bootstrap-common": "workspace:packages/common"
+    "@sn/yarn-workspaces-sandbox-common": "workspace:packages/common"
     eslint: ^7.32.0
     tslib: ^2.3.1
     typescript: ^4.4.3
   languageName: unknown
   linkType: soft
 
-"@sn/yarn-workspaces-bootstrap@workspace:.":
+"@sn/yarn-workspaces-sandbox@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@sn/yarn-workspaces-bootstrap@workspace:."
+  resolution: "@sn/yarn-workspaces-sandbox@workspace:."
   languageName: unknown
   linkType: soft
 

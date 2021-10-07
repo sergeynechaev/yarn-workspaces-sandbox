@@ -1,1 +1,1 @@
-# `@sn/yarn-workspaces-bootstrap-node`
+# `@sn/yarn-workspaces-sandbox-node`
