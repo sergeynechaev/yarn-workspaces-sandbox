@@ -1,5 +1,6 @@
 {
   "name": "@sn/yarn-workspaces-bootstrap-js",
+  "version": "0.0.1",
   "packageManager": "yarn@3.0.2",
   "scripts": {
     "build": "rm -rf ./dist && npm run build:cjs && npm run build:esm",
