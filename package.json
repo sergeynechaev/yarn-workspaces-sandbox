@@ -2,15 +2,15 @@
   "name": "@sn/yarn-workspaces-bootstrap",
   "version": "0.0.1",
   "description": "Yarn workspaces bootstrap",
-  "main": "index.js",
   "author": "Sergey Nechaev <snechayev@gmail.com>",
   "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach --all --parallel --topological run build",
-    "version:up": "yarn workspaces foreach --all --topological version --deferred",
+    "build": "yarn workspaces foreach --parallel --topological run build",
+    "version:up": "yarn workspaces foreach --topological version",
+    "version:up:deferred": "yarn workspaces foreach --topological version --deferred",
     "version:apply": "yarn version apply --all",
     "publish": "yarn workspaces foreach --parallel npm publish"
   },
