@@ -1,0 +1,4 @@
+{
+  "name": "@sn/yarn-workspaces-bootstrap-js",
+  "packageManager": "yarn@3.0.2"
+}
