@@ -1,6 +1,6 @@
 {
   "name": "@sn/yarn-workspaces-sandbox-common",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "yarn@3.0.2",
   "main": "dist/cjs",
   "module": "dist/esm",

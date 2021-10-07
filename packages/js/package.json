@@ -1,6 +1,6 @@
 {
   "name": "@sn/yarn-workspaces-sandbox-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "yarn@3.0.2",
   "scripts": {
     "build": "rm -rf ./dist && npm run build:cjs && npm run build:esm",
