@@ -1,6 +1,6 @@
 {
   "name": "@sn/yarn-workspaces-bootstrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yarn workspaces bootstrap",
   "author": "Sergey Nechaev <snechayev@gmail.com>",
   "license": "MIT",
